@@ -3,12 +3,12 @@ void main() {
   //is a null value
   String? name;
   // value
-  nome = 'james';
+  name = 'james';
   //force a null safaty value
-  print(name!);
+  print(name);
 
   late int age;
   age = 27;
-  print(age!);
+  print(age);
 
 }

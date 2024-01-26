@@ -5,18 +5,22 @@ class Cellphone {
   final double size;
   final double weight;
 
-  Cellphone(this.collor, this.processors, this.size, this.double); 
+  Cellphone(this.collor, this.processors, this.size, this.weight); 
 
   String toString() {
     return 'collor: $collor \n processors: $processors \n size: $size \n weight: $weight';
   }
 
-  double cellphoneValue(double value) {
+  double cellPhoneValue(double value) {
     return value * processors;
   }
 }
 
-Cellphone mycellphone = Cellphone('blue', 6, 0.600, 5.7);
+void main() {
+  Cellphone mycellphone = Cellphone('blue', 6, 0.600, 5.7);
 
-print(mycellphone.toString());
-print(mycellphone.cellphoneValue(1000))
+  double resultado = mycellphone.cellPhoneValue(1000);
+
+  print(resultado);
+}
+

@@ -1,8 +1,8 @@
 void main() {
 
-  bool folow = false;
+  bool follow = false;
 
-  if (folow) {
+  if (follow) {
     print('walk');
   } else {
     print('stop');
@@ -16,16 +16,19 @@ void main() {
   switch(value) {
     case 0:
       print('zero');
-      break
+      break;
     case 1:
       print('one');
-      break
+      break;
     case 2:
       print('two');
-      break
+      break;
     case 3:
       print('three');
-      break
+      break;
+    case 4:
+      print('four');
+      break;
     default:
       print('standard');
   }
